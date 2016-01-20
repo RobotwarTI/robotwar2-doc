@@ -1,0 +1,205 @@
+---------------------------------------------------------------------
+
+ Robot War 2: The Bionic Wars (alpha) v 0.1.0
+
+ ---------------------------------------------------------------------
+
+
+
+
+-------------
+Requirements:
+-------------
+  TI-83+ SE  No shell needed
+  TI-84+ SE  No shell needed 
+
+  Memory Required:
+  64kB ROM, plus 2.7kB RAM at runtime
+  512 bytes per saved game
+  
+  This release (v0.1.0) is unstable.  Please backup your files.
+
+  
+----------------
+Story/Objective:
+----------------
+  “Years ago, Dr. Edmund waged war on mankind with his army of drones.
+  The hero, Edgar used artificial PSI to topple him.
+  Sensing a new threat, Edgar journeys to Oceanside 
+  to rebuild the institute that trained him.  Good Luck!”
+
+
+------------
+How to play:
+------------
+  At the title screen, press [2ND] to advance to the file select
+  menu.  In the file select menu, you can use [UP] or [DOWN] to 
+  select a file.  Use [LEFT] or [RIGHT] to view options such as
+  copy, delete, or unarchive.  There is also a help section at the 
+  bottom.
+
+  To exit the game from the file select menu, press [ALPHA] twice.
+  
+  To exit the game from the battlefield, press [ENTER] to pause, then
+  select "EXIT."  
+  
+  Note: Robot War 2: TBW Alpha allows you to chose any 5-character
+  nickname for your games.  However, you files will appear in the 
+  TI-OS system as RW2G1, RW2G2, or RW2G3.  
+
+  
+---------
+Controls:
+---------
+  [UP], [DOWN], [LEFT], [RIGHT] - Move your character or cursor
+
+  [2nd] - Make a selection / Jump
+  
+  [ALPHA] - Cancel menu / Attack
+  
+  [MODE] - Change weapon
+  
+  [ENTER] - Pause
+  
+  [DEL] - Drop or sell item.  Only usable in the item menu
+
+  To talk to somebody, just walk into them.
+
+
+----------------
+Character Stats:
+----------------
+  HP  - Your HEALTH is the [+] icon on your sidebar.  Eat to recover HP.
+
+  EP  - Your ENERGY works like ammo
+
+  ATK - Your ATTACK knockback. Boost your ATK to gain x2,x3,x4 attacks.
+
+  DEF - Your DEFENSE decreases enemy knockback and protects your items.
+
+  SPE - Your SPEED controls your walking/running pace.
+
+  LEV - Your LEVELS are like lives.
+
+  Collect musical notes from enemies to level up.  
+  
+  Eat a food item (meat, sandwich, or fruit) to gain a +10 bonus
+  to one of your stats.  Your STOMACH will remember the last 3 food
+  items you ate for a total of +30 bonus points.  Fighting will
+  slowly deplete your stomach.
+  
+   
+-----
+Loot:
+-----
+  COIN - Collect these to purchase items from shops
+  
+  SKILL - Collect musical notes to gain levels (LEV)
+
+
+------
+Items:
+------			
+  You can carry up to 9 items at a time.  To view them, pause the game
+  with [ENTER], then select “ITEM.”
+  
+  Any item with a life bar can be harmed by enemies, just like
+  your own character!  A higher defense (DEF) will make your items
+  more durable.  When an item's life bar runs out, you will 
+  automatically drop it onto the battlefield.
+  
+  To eat food, just touch it.  
+
+  MEAT     +50% health. +10 Attack.  Possible +2 Attack next level-up.
+
+  SANDWICH +50% health. +10 Defense.  Possible +2 Defense next level-up.
+
+  FRUIT    +50% health. +10 Speed.  Possible +2 Speed next level-up.
+
+  WATER    +50% energy.
+
+  All other items are considered equipment.  Your equipment will work
+  for as long as your carry it.  These include key cards, weapons,
+  armor, and other goodies.  
+
+  ENERGY HERB - Slowly restores your energy up to 50%.
+
+  ENZYME      - Food and water will restore full health/energy.
+
+  DESICCANT   - Items will survive up to 15 levels instead of 10.
+
+  DESCRAMBLER - Simplifies cryptographic puzzles and unlocks some doors.
+
+  ZAPPER      - Stuns small enemies. Unlimited ammo. Requires battery.		
+	
+  BATTERY     - Required for certain high-tech items
+
+  ACHEIVEMENT - Hidden item not sold in stores.  Can you find all 4?
+
+  
+--------
+Weapons:
+--------
+  Use [MODE] to cycle through your energy attacks.  Your default attack
+  uses no energy, but also has the least range and knockback.
+  
+  Your energy weapons are Fire, Water, Metal, Wind, and Earth.
+  Each one has a specific strength or weakness based on the enemy.
+    
+  Increase your attack (ATK) to deal x2, x3, or x4 hits to your 
+  opponents.
+
+  
+-----
+Tips:
+-----
+  - Eat food often.  Combat will slowly deplete any stat boosts
+    you have received from your latest 3 meals.  When in doubt, 
+	pause with [ENTER] to view your "STAT" display.
+
+  - Experiment with different energy attacks on the same enemy.
+
+  - Breathing underwater is bad.
+  
+  - De-scrambling puzzles in the fewest moves possible will boost
+    your experience a large amount.
+  
+  - Back up your games by archiving a copy.
+  
+  - If you drop an item while in a store, you will get a small refund.
+	
+-------
+Trivia:
+-------
+  - RW2 is partly inspired by TI calculator games: Joltima, 
+    Shadow of the Narkemen, and Little Dude.  
+	
+  - This beta contains about 1/5th of the levels made.
+  
+
+----------
+Thanks to:
+----------
+  www.cemetech.net
+
+ (TASM Assemler) Squak Valley Software & H. Omoru, 
+
+ (SpASM Assembler and App Signer) D. Straney & S. Putt, 
+ 
+ (Artwork) B. Mayes
+
+ (Apack) J. Ibsen, D. Wiess
+
+ (Physics) B. Mayes, P. Gergely 
+
+ (Graphics Driver) CrASH_Man 
+ 
+ (Arithmatic) M. Bazelides
+
+ (Hardware) Texas Instruments
+ 
+ 
+
+-----------
+End of file
+-----------
