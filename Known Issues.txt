@@ -1,0 +1,46 @@
+
+
+GAMEPLAY:
+- The skateboarding minigame will end abruptly.
+- Cinematic areas will show Edgar and his sidebar.
+- Collecting acheivements will not yet count toward you acheivement total
+- Colliding with an non-playable character will make Edgar dither between pixels.  
+- Earth attack is not finished
+- Edmund has no 16x16 avatar yet
+- Cyrus avatar to change
+- Quick-travel via contact-triggered dialogs not finished
+- Jump is not disabled early in the game (after the skateboarding mini, but before eating fruit for HP)
+- Shop in the southwest corner of the large city will link you to the University when exited
+- The bowling map is empty 
+- Reload rate for text scolling and item purchasing may spike for <1 second.
+- Exploding barrels are still in progress, but mostly work
+- Touching a scrambled terminal while viewing text will show garbled text area after exiting terminal
+- Bowling lane tiles have been commented out temporarily (will appear garbled)
+- If camera detactches from Edgar (ex: riding an elevator), it will seek his location, but may overshoot. (minor issue)
+
+
+STORY:
+- Characters are 
+- Oceanside boss exists in graphics, but is not accessable
+- All areas beyond Oceanside are under construction, unlinked, or otherwise inaccessable.
+- Spell-checking has been minimal so far
+
+
+IN PROGRESS:
+- Game will notify player of savegame filename on the file select screen.
+- Finishing Oceanside areas
+- Code Oceanside boss into the game
+- Add a viewable timer to the skateboarding game
+- Add a proper fade-out to the skateboarding game
+
+RECENT CHANGES
+--------------
+- 16x16 portrait for Director Cyrus updated.  Director Cyrus to be named "CYRU"
+- Joint Enlisted Taskforce (JET) will be referred to simply as TASKFORCE.
+- The General Store (selling magnets, springs, and shoes) is now linked to Downtown Oceanside.
+- Anagram mode will no longer cause a memory conflict with spoken dialogs.  (Anagrams have priority)
+
+---------
+REVISIONS
+---------
+2016.01.22 - Initial version
