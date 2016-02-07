@@ -1,27 +1,26 @@
 
 
 GAMEPLAY:
+- The Oceanside boss is accessable too early and is replayable.
 - The skateboarding minigame will end abruptly.
-- Cinematic areas will show Edgar and his sidebar.
+- Boss center section's Y-position is too low (drawn too early).  Increase to 48, and adjust the draw guide by -48.
 - Collecting acheivements will not yet count toward you acheivement total
 - Colliding with an non-playable character will make Edgar dither between pixels.  
-- Earth attack is not finished
 - Edmund has no 16x16 avatar yet
-- Cyrus avatar to change
-- Quick-travel via contact-triggered dialogs not finished
+- Quick-travel via contact-triggered dialogs not finished and will cause a crash.
 - Jump is not disabled early in the game (after the skateboarding mini, but before eating fruit for HP)
-- Shop in the southwest corner of the large city will link you to the University when exited
-- The bowling map is empty 
 - Reload rate for text scolling and item purchasing may spike for <1 second.
 - Exploding barrels are still in progress, but mostly work
-- Touching a scrambled terminal while viewing text will show garbled text area after exiting terminal
 - Bowling lane tiles have been commented out temporarily (will appear garbled)
 - If camera detactches from Edgar (ex: riding an elevator), it will seek his location, but may overshoot. (minor issue)
+- Noticed enemy: "spy" appeared in the Crab's Cove area.  How did it get there?
 
 
 STORY:
-- Characters are 
-- Oceanside boss exists in graphics, but is not accessable
+- REED is not introduced by name
+- NOAH is not introduced by name
+- GILL is not introduced by name
+- CYRU is visible outside Atlas Tower too early in the game
 - All areas beyond Oceanside are under construction, unlinked, or otherwise inaccessable.
 - Spell-checking has been minimal so far
 
@@ -31,7 +30,7 @@ IN PROGRESS:
 - Finishing Oceanside areas
 - Code Oceanside boss into the game
 - Add a viewable timer to the skateboarding game
-- Add a proper fade-out to the skateboarding game
+
 
 RECENT CHANGES
 --------------
@@ -39,6 +38,19 @@ RECENT CHANGES
 - Joint Enlisted Taskforce (JET) will be referred to simply as TASKFORCE.
 - The General Store (selling magnets, springs, and shoes) is now linked to Downtown Oceanside.
 - Anagram mode will no longer cause a memory conflict with spoken dialogs.  (Anagrams have priority)
+- Added new twin bullet projectile sprite
+- Added new turret and wheel assembly for boss.  Boss now comprises 4 objects (2 of them use compound sprites)
+- Added attack pattern for Oceanside boss (4 phases)
+- Added subroutine: BossMeter to display boss HP.  Do not set HP > 27.
+- Added fadeout effect to end of skateboard minigame.
+- Set skateboard minigame length to 12.  (3 repetitions x 4 phases)
+- Added TILEMAP_STATE flag "BLACKOUT" to blank out the screen except for text (for cinematic effect)
+- Added male NPC in bowling alley to explain the area is under renovation.
+- Added stopwatch icon for minigame timer
+- Made the boss HP meter slightly taller for better visibility
+- Coded Oceanside boss into the game, but it is accessable at any time (will fix)
+
+
 
 ---------
 REVISIONS

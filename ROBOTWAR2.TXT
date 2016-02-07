@@ -133,6 +133,8 @@ Items:
   ZAPPER      - Stuns small enemies. Unlimited ammo. Requires battery.		
 	
   BATTERY     - Required for certain high-tech items
+  
+  MAGNET      - Will attract loot to your location
 
   ACHEIVEMENT - Hidden item not sold in stores.  Can you find all 4?
 
@@ -191,6 +193,8 @@ Trivia:
 Thanks to:
 ----------
   www.cemetech.net
+  
+ (Beta Testers)
 
  (TASM Assemler) Squak Valley Software & H. Omoru, 
 
@@ -207,6 +211,7 @@ Thanks to:
  (Arithmetic) M. Bazelides
 
  (Hardware) Texas Instruments
+
  
  
 
