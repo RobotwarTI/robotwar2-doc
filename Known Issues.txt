@@ -1,6 +1,7 @@
 
 
 GAMEPLAY:
+- Proximity-triggered text outside Atlas Tower may display the wrong dialog.
 - The Oceanside boss is accessable too early and is replayable.
 - The skateboarding minigame will end abruptly.
 - Boss center section's Y-position is too low (drawn too early).  Increase to 48, and adjust the draw guide by -48.
@@ -17,9 +18,6 @@ GAMEPLAY:
 
 
 STORY:
-- REED is not introduced by name
-- NOAH is not introduced by name
-- GILL is not introduced by name
 - CYRU is visible outside Atlas Tower too early in the game
 - All areas beyond Oceanside are under construction, unlinked, or otherwise inaccessable.
 - Spell-checking has been minimal so far
@@ -49,6 +47,9 @@ RECENT CHANGES
 - Added stopwatch icon for minigame timer
 - Made the boss HP meter slightly taller for better visibility
 - Coded Oceanside boss into the game, but it is accessable at any time (will fix)
+- Modified draw order of the oceanside boss.  Side effect: turret is now underlayed beneath the center segment.
+- Modified timers: TIMER, BOSS_TIMER, and LANE_WARNING to reset on every map load.
+- Remvoed heatwave visual effect from the Beta version to free up more page 1 space.  Is this better off in page 0?
 
 
 
