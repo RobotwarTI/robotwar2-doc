@@ -1,6 +1,6 @@
 ﻿---------------------------------------------------------------------
 
- Robot War 2: The Bionic Wars (alpha) v 0.1.0
+ Robot War 2: The Bionic Wars (beta) v 0.2.0
 
  ---------------------------------------------------------------------
 
@@ -18,6 +18,8 @@ Requirements:
   512 bytes per saved game
   
   This release (v0.1.0) is unstable.  Please backup your files.
+  
+  Calculator Automatic Power-Down (APD) not supported in gameplay.
 
   
 ----------------
@@ -128,7 +130,7 @@ Items:
 
   DESICCANT   - Items will survive up to 15 levels instead of 10.
 
-  DESCRAMBLER - Simplifies cryptographic puzzles and unlocks some doors.
+  DESCRAMBLER - Simplifies cryptographic puzzles.
 
   ZAPPER      - Stuns small enemies. Unlimited ammo. Requires battery.		
 	
@@ -179,7 +181,8 @@ Tips:
   - Back up your games by archiving a copy.
   
   - If you drop an item while in a store, you will get a small refund.
-	
+
+  
 -------
 Trivia:
 -------
